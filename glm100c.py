@@ -15,7 +15,7 @@ class GLM100C(object):
     Bluethooth Connection to laser range finder GLM100C
     """
     socket = None
-    port = 0x0001
+    port = 0x0001 # 5 for GLM 50 C
     bluetooth_address = None
     connected = False
 
